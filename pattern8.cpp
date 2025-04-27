@@ -9,10 +9,13 @@ int main()
     while(i<=n)
     {
         int j=1;
-        while(j<=n)
+        int value=i;
+        while(j<=i)
         {
-            cout<<i;
+            cout<<value;
+            value++;
             j++;
+
         }
         cout<<endl;
         i++;

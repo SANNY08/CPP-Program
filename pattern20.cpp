@@ -8,11 +8,23 @@ int main()
     int i=1;
     while(i<=n)
     {
+        int space=n-i;
+        while(space)
+        {
+            cout<<" ";
+            space--;
+        }
         int j=1;
-        while(j<=n)
+        while(j<=i)
         {
             cout<<i;
             j++;
+        }
+        int star =i-1;
+        while(star)
+        {
+            cout<<star;
+            star--;
         }
         cout<<endl;
         i++;

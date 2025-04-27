@@ -6,12 +6,16 @@ int main()
     cout<<"Enter number :";
     cin>>n;
     int i=1;
+ 
     while(i<=n)
     {
         int j=1;
-        while(j<=n)
+        char ch = ('A'+i+j-2);
+       
+        while(j<=i)
         {
-            cout<<i;
+            cout<<ch;
+            ch++;
             j++;
         }
         cout<<endl;

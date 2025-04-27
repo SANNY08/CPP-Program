@@ -9,9 +9,11 @@ int main()
     while(i<=n)
     {
         int j=1;
-        while(j<=n)
+        char ch= 'A'+n-i;
+        while(j<=i)
         {
-            cout<<i;
+            cout<<ch;
+            ch++;
             j++;
         }
         cout<<endl;

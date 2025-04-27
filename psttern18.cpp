@@ -6,15 +6,22 @@ int main()
     cout<<"Enter number :";
     cin>>n;
     int i=1;
-    while(i<=n)
+    while (i<=n)
     {
-        int j=1;
-        while(j<=n)
+        int space =n-i;
+        while(space)
         {
-            cout<<i;
+            cout<<" ";
+            space--;
+        }
+        int j=1;
+        while(j<=i)
+        {
+            cout<<"*";
             j++;
         }
         cout<<endl;
         i++;
     }
+    
 }
